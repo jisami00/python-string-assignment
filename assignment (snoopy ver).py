@@ -111,7 +111,7 @@ def main():
             print(f"Snoopy swapped the cases: '{result}'")
             print(" Upper became lower, lower became upper!")
         elif choice == "9":
-            # Exit program with Snoopy 
+            # Exit 
             print("🐕 Snoopy says: Thanks for playing word tricks with me!")
             print("🦴 It was pawsome fun! 🦴")
             print("Goodbye from Jessa Mae R. Forrosuelo - Code: 2270")
@@ -123,11 +123,12 @@ def main():
             print(" ⣐⣺⡀⠀⠀⠀⠀⠀⠀⠀⠀⡆⣼⣿⣿⡿⠀⠤⠤⠤⠏⠀⠀⠁⠀⠀⢆⠀⠀⡡")
             print("⠈⠋⠈⠒⠦⠤⠤⠒⠒⠒⠒⠧⣻⡿⠟⠳⠤⠤⠤⠤⠤⠤⠔⠑⠒⠊⠀⠁⠂⠁")
             print(" Zzz... Snoopy is taking a nap...")
-            break  # This stops the loop - Snoopy goes to sleep
+            break  # Snoopy goes to sleep 
             
         else:
             # invalid choices
             print("🐕 Woof! Snoopy is confused! That's not a trick I know!")
             print("🦴 Invalid choice, try again. Please pick a number between 0-9! 🦴")
+
 
 main()
